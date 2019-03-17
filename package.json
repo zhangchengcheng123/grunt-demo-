@@ -4,11 +4,12 @@
   "description": "LESS 预处理",
   "main": "index.js",
   "dependencies": {
+    "grunt-contrib-imagemin": "^2.0.1"
+  },
+  "devDependencies": {
     "grunt": "^1.0.3",
-    "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-uglify": "^4.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
